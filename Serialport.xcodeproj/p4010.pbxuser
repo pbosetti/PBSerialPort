@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 88A2AFCC1041E6FC00748DD6 /* Serial Console */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 88A2B01B1041F2CF00748DD6 /* PBSerialPort */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Serial Console */,
+		);
+		breakpoints = (
+			88003B16104EA5A500FE8DD8 /* objc_exception_throw */,
+		);
+		codeSenseManager = 88A2AFDA1041E71C00748DD6 /* Code sense */;
+		executables = (
+			88A2AFCC1041E6FC00748DD6 /* Serial Console */,
+			88A2AFE91041E7BB00748DD6 /* test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					415,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					429,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					317,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					375,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 278842322;
+			PBXWorkspaceStateSaveDate = 278842322;
+		};
+		perUserProjectItems = {
+			8866AF5A106380DF00A248AD = 8866AF5A106380DF00A248AD /* PBXTextBookmark */;
+			8866AF72106383CC00A248AD = 8866AF72106383CC00A248AD /* PBXTextBookmark */;
+			8866AF74106383CC00A248AD = 8866AF74106383CC00A248AD /* PBXTextBookmark */;
+			8875FD3E108C7116009B29C6 = 8875FD3E108C7116009B29C6 /* PBXTextBookmark */;
+			8875FD3F108C7116009B29C6 = 8875FD3F108C7116009B29C6 /* PBXTextBookmark */;
+			8875FD40108C7116009B29C6 = 8875FD40108C7116009B29C6 /* PBXTextBookmark */;
+			88B229EC104E621D008168F4 = 88B229EC104E621D008168F4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 88A2AFD91041E71C00748DD6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	88003B16104EA5A500FE8DD8 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 273589669.110838;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+		symbolName = objc_exception_throw;
+	};
+	8866AF5A106380DF00A248AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88EDF13D10626D9F0064A5C2 /* SPController.s */;
+		name = "SPController.s: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 4338;
+	};
+	8866AF72106383CC00A248AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88A2AFDE1041E75800748DD6 /* test.c */;
+		name = "test.c: 26";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 351;
+	};
+	8866AF74106383CC00A248AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88F72F591043190600ED811A /* SPController.m */;
+		name = "SPController.m: 53";
+		rLen = 0;
+		rLoc = 1730;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 2098;
+	};
+	8875FD3E108C7116009B29C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88A2B0011041E8BD00748DD6 /* PBSerialPort.m */;
+		name = "PBSerialPort.m: 13";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 258;
+	};
+	8875FD3F108C7116009B29C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88A2B0001041E8BD00748DD6 /* PBSerialPort.h */;
+		name = "PBSerialPort.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 588;
+	};
+	8875FD40108C7116009B29C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88A2B0001041E8BD00748DD6 /* PBSerialPort.h */;
+		name = "PBSerialPort.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 648;
+	};
+	88A2AFCC1041E6FC00748DD6 /* Serial Console */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 1;
+		name = "Serial Console";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	88A2AFD91041E71C00748DD6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	88A2AFDA1041E71C00748DD6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	88A2AFDE1041E75800748DD6 /* test.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 1290}}";
+			sepNavSelRange = "{714, 0}";
+			sepNavVisRange = "{351, 727}";
+			sepNavWindowFrame = "{{15, 187}, {736, 986}}";
+		};
+	};
+	88A2AFE71041E7BB00748DD6 /* test */ = {
+		activeExec = 0;
+		executables = (
+			88A2AFE91041E7BB00748DD6 /* test */,
+		);
+	};
+	88A2AFE91041E7BB00748DD6 /* test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = test;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	88A2B0001041E8BD00748DD6 /* PBSerialPort.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 690}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{648, 483}";
+			sepNavWindowFrame = "{{257, 181}, {736, 986}}";
+		};
+	};
+	88A2B0011041E8BD00748DD6 /* PBSerialPort.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 1725}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{258, 550}";
+			sepNavWindowFrame = "{{1058, 164}, {736, 986}}";
+		};
+	};
+	88A2B01B1041F2CF00748DD6 /* PBSerialPort */ = {
+		activeExec = 0;
+	};
+	88B229EC104E621D008168F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 88F72F5A1043190600ED811A /* SPController.h */;
+		name = "SPController.h: 18";
+		rLen = 3;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	88EDF12210626B710064A5C2 /* PBSerial */ = {
+		activeExec = 0;
+	};
+	88EDF13D10626D9F0064A5C2 /* SPController.s */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.asm;
+		name = SPController.s;
+		path = "/Users/p4010/Projects/Serialport/build/Serialport.build/Release/Serial Console.build/Objects-normal/x86_64/SPController.s";
+		sourceTree = "<absolute>";
+	};
+	88F72F591043190600ED811A /* SPController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {593, 1740}}";
+			sepNavSelRange = "{1730, 0}";
+			sepNavVisRange = "{0, 783}";
+			sepNavWindowFrame = "{{848, 144}, {835, 1010}}";
+		};
+	};
+	88F72F5A1043190600ED811A /* SPController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {776, 882}}";
+			sepNavSelRange = "{464, 3}";
+			sepNavVisRange = "{0, 622}";
+			sepNavWindowFrame = "{{951, 84}, {835, 1010}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Serial Console */ = {
+		activeExec = 0;
+		executables = (
+			88A2AFCC1041E6FC00748DD6 /* Serial Console */,
+		);
+	};
+}
