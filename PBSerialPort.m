@@ -29,7 +29,6 @@ void Init_PBSerialPort(void) { }
 	self.baud = DEFAULT_BAUD;
 	self.bufferSize = DEFAULT_BUFFER_SIZE;
 	self.status = PORT_CLOSED;
-	NSLog(@"serialPort inited");
 	return self;
 }
 
@@ -39,7 +38,7 @@ void Init_PBSerialPort(void) { }
 
 - (BOOL) open {
 	struct termios options;
-	NSLog(@"Port: %@, baud: %d",port,baud);
+	//NSLog(@"Port: %@, baud: %d",port,baud);
 	/* open the USB Serial Port */
 	fd = open([port UTF8String], O_RDWR | O_NOCTTY | O_NONBLOCK );
 	if (fd == -1) {
@@ -95,16 +94,16 @@ void Init_PBSerialPort(void) { }
 	return [NSString stringWithCString:buffer encoding:NSUTF8StringEncoding];
 }
 
-- (NSInteger)availableBytes {
-	int availableBytes;;
-	ioctl(fd, FIONREAD, &availableBytes);
+- (unsigned int)availableBytes {
+	unsigned int availableBytes;
+	if (ioctl(fd, FIONREAD, &availableBytes) == -1)
+    NSLog(@"Error: %d", errno);
 	return availableBytes;
 }
 
 - (char) readChar {
-	char result;
-	result = '*';
-	
+	char result = '\0';
+  read(fd, &result, 1);
 	return result;
 }
 	
@@ -115,7 +114,7 @@ void Init_PBSerialPort(void) { }
 }
 
 - (BOOL) writeChar: (char)aChar {
-	
+	write(fd, &aChar, 1);
 	return TRUE;
 }
 

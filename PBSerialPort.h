@@ -37,7 +37,7 @@
 - (BOOL) isOpen;
 - (BOOL) open;
 - (BOOL) close;
-- (NSInteger)availableBytes;
+- (unsigned int)availableBytes;
 - (NSString *) readLine;
 - (char) readChar;
 - (BOOL) writeString: (NSString *)aString;

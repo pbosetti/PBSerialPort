@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		88A2AFEC1041E7C600748DD6 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 88A2AFDE1041E75800748DD6 /* test.c */; };
 		88A2B0021041E8BD00748DD6 /* PBSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2B0011041E8BD00748DD6 /* PBSerialPort.m */; };
-		88A2B0081041EFD400748DD6 /* PBSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2B0011041E8BD00748DD6 /* PBSerialPort.m */; };
 		88A2B01F1041F2E800748DD6 /* PBSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2B0011041E8BD00748DD6 /* PBSerialPort.m */; };
 		88A2B0201041F2F700748DD6 /* PBSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A2B0001041E8BD00748DD6 /* PBSerialPort.h */; };
-		88EDF12910626C660064A5C2 /* PBSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2B0011041E8BD00748DD6 /* PBSerialPort.m */; };
 		88F72F5B1043190600ED811A /* SPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F72F591043190600ED811A /* SPController.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -29,13 +26,10 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Serialport_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serialport_Prefix.pch; sourceTree = "<group>"; };
-		88A2AFDE1041E75800748DD6 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
-		88A2AFE81041E7BB00748DD6 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		88789D80109ED0C4003B3C16 /* test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test.rb; sourceTree = "<group>"; };
 		88A2B0001041E8BD00748DD6 /* PBSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSerialPort.h; sourceTree = "<group>"; };
 		88A2B0011041E8BD00748DD6 /* PBSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSerialPort.m; sourceTree = "<group>"; };
 		88A2B01C1041F2CF00748DD6 /* PBSerialPort.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = PBSerialPort.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EDF12310626B710064A5C2 /* PBSerial.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBSerial.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EDF12410626B710064A5C2 /* PBSerial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBSerial-Info.plist"; sourceTree = "<group>"; };
 		88F72F591043190600ED811A /* SPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		88F72F5A1043190600ED811A /* SPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPController.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,21 +37,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88A2AFE61041E7BB00748DD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88A2B01A1041F2CF00748DD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88EDF12110626B710064A5C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,7 +58,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				88A2AFDE1041E75800748DD6 /* test.c */,
 				88A2B0001041E8BD00748DD6 /* PBSerialPort.h */,
 				88A2B0011041E8BD00748DD6 /* PBSerialPort.m */,
 				88F72F591043190600ED811A /* SPController.m */,
@@ -109,9 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Serial Console.app */,
-				88A2AFE81041E7BB00748DD6 /* test */,
 				88A2B01C1041F2CF00748DD6 /* PBSerialPort.bundle */,
-				88EDF12310626B710064A5C2 /* PBSerial.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,7 +101,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				88EDF12410626B710064A5C2 /* PBSerial-Info.plist */,
 			);
 			name = Serialport;
 			sourceTree = "<group>";
@@ -134,6 +110,7 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* Serialport_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				88789D80109ED0C4003B3C16 /* test.rb */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -171,22 +148,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88A2AFE71041E7BB00748DD6 /* test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88A2AFF01041E7F100748DD6 /* Build configuration list for PBXNativeTarget "test" */;
-			buildPhases = (
-				88A2AFE51041E7BB00748DD6 /* Sources */,
-				88A2AFE61041E7BB00748DD6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = test;
-			productName = test;
-			productReference = 88A2AFE81041E7BB00748DD6 /* test */;
-			productType = "com.apple.product-type.tool";
-		};
 		88A2B01B1041F2CF00748DD6 /* PBSerialPort */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88A2B0221041F31600748DD6 /* Build configuration list for PBXNativeTarget "PBSerialPort" */;
@@ -203,23 +164,6 @@
 			productName = PSSerialPort;
 			productReference = 88A2B01C1041F2CF00748DD6 /* PBSerialPort.bundle */;
 			productType = "com.apple.product-type.library.dynamic";
-		};
-		88EDF12210626B710064A5C2 /* PBSerial */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88EDF12710626B720064A5C2 /* Build configuration list for PBXNativeTarget "PBSerial" */;
-			buildPhases = (
-				88EDF11F10626B710064A5C2 /* Resources */,
-				88EDF12010626B710064A5C2 /* Sources */,
-				88EDF12110626B710064A5C2 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PBSerial;
-			productName = PBSerial;
-			productReference = 88EDF12310626B710064A5C2 /* PBSerial.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		8D1107260486CEB800E47090 /* Serial Console */ = {
 			isa = PBXNativeTarget;
@@ -255,21 +199,12 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Serial Console */,
-				88A2AFE71041E7BB00748DD6 /* test */,
 				88A2B01B1041F2CF00748DD6 /* PBSerialPort */,
-				88EDF12210626B710064A5C2 /* PBSerial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88EDF11F10626B710064A5C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,28 +217,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88A2AFE51041E7BB00748DD6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88A2AFEC1041E7C600748DD6 /* test.c in Sources */,
-				88A2B0081041EFD400748DD6 /* PBSerialPort.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88A2B0191041F2CF00748DD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				88A2B01F1041F2E800748DD6 /* PBSerialPort.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88EDF12010626B710064A5C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88EDF12910626C660064A5C2 /* PBSerialPort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,36 +257,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		88A2AFEA1041E7BB00748DD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = /usr/local/bin;
-				PREBINDING = NO;
-				PRODUCT_NAME = test;
-			};
-			name = Debug;
-		};
-		88A2AFEB1041E7BB00748DD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				INSTALL_PATH = /usr/local/bin;
-				PREBINDING = NO;
-				PRODUCT_NAME = test;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		88A2B01D1041F2D000748DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -418,60 +306,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = PBSerialPort;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		88EDF12510626B720064A5C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "PBSerial-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = PBSerial;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		88EDF12610626B720064A5C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EXECUTABLE_EXTENSION = bundle;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_GC = supported;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_VERSION = "";
-				INFOPLIST_FILE = "PBSerial-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				MACH_O_TYPE = mh_dylib;
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = PBSerial;
-				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -543,29 +377,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88A2AFF01041E7F100748DD6 /* Build configuration list for PBXNativeTarget "test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88A2AFEA1041E7BB00748DD6 /* Debug */,
-				88A2AFEB1041E7BB00748DD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		88A2B0221041F31600748DD6 /* Build configuration list for PBXNativeTarget "PBSerialPort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88A2B01D1041F2D000748DD6 /* Debug */,
 				88A2B01E1041F2D000748DD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		88EDF12710626B720064A5C2 /* Build configuration list for PBXNativeTarget "PBSerial" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88EDF12510626B720064A5C2 /* Debug */,
-				88EDF12610626B720064A5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
