@@ -8,23 +8,38 @@ Usage
 
 Copy the build product PBSerialPort.bundle to your MacRuby project folder.
 
-In MacRuby:
+Using the example Arduino sketch provided in AnalogSerialRead, run the following code in MacRuby:
     
+    #!/usr/env macruby
+
     require "./PBSerialPort.bundle"
 
     sp = PBSerialPort.new
-    sp.port = "/dev/tty.usbserial-A6004aLr"
-    sp.baud = 115200
+    sp.port = "/dev/tty.usbmodem411"
+    sp.baud = 9600
+
+    running = true
+
+    # Install management of ctrl-C signal
+    Signal.trap("SIGINT") do
+      running = false
+    end
 
     sp.open
     raise unless sp.isOpen
-    sleep 2
-    sp.writeChar '?'
+    sleep 2 # Give Arduino time for booting
 
-    first = true
-    while sp.availableBytes > 0 or first do
-      print sp.readChar.chr
-      first = false
+    values = []
+    while running do
+      (0..5).each do |pin|
+        sp.writeChar pin.to_s
+        values << sp.readLine.chomp
+      end
+      puts values * " "
+      values.clear
+      sleep 0.1
     end
 
+    print "Closing serial port..."
     sp.close
+    puts "done!"
