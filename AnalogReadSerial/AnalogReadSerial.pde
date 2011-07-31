@@ -24,8 +24,11 @@ void loop() {
       Serial.println("-");
     }
   }
-  delay(100);
+  else {
+    delay(100);
+  }
 }
+
 
 
 
