@@ -6,9 +6,11 @@ A quick and dirty serialport class written in Objective-C and tuned to be used a
 Usage
 -----
 
+Copy the build product PBSerialPort.bundle to your MacRuby project folder.
+
 In MacRuby:
     
-    require "build/Release/PBSerialPort"
+    require "./PBSerialPort.bundle"
 
     sp = PBSerialPort.new
     sp.port = "/dev/tty.usbserial-A6004aLr"
